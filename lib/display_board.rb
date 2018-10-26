@@ -8,7 +8,7 @@ puts "   |   |   "
 puts "-----------"
 puts "   |   |   "
 end
-
+start = [" ", " ", " ", " ", "x", " ", " ", " ", " "]
 def display_board(space = start)
 puts [space[0]|space[1]|space[2]
 puts "-----------"
